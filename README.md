@@ -78,9 +78,10 @@ npx hardhat test
 
 ```bash
 npx hardhat run scripts/deploy.ts --network sepolia
+npx hardhat ignition deploy ./ignition/modules/TipJar.ts --network sepolia
 ```
 
-El script desplegará el contrato y mostrará su dirección <address_del_contrato>g
+El script desplegará el contrato y mostrará su dirección <address_del_contrato>
 
 En scripts/interactTipJar.ts
 Modificar (26)
