@@ -80,7 +80,12 @@ npx hardhat test
 npx hardhat run scripts/deploy.ts --network sepolia
 ```
 
-El script desplegará el contrato y mostrará su dirección.
+El script desplegará el contrato y mostrará su dirección <address_del_contrato>g
+
+En scripts/interactTipJar.ts
+Modificar (26)
+
+const tipJarAddress = "<address_del_contrato>"
 
 ---
 
