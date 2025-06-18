@@ -77,7 +77,6 @@ npx hardhat test
 ## 🚀 Desplegar en Sepolia
 
 ```bash
-npx hardhat run scripts/deploy.ts --network sepolia
 npx hardhat ignition deploy ./ignition/modules/TipJar.ts --network sepolia
 ```
 
